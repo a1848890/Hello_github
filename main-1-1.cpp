@@ -1,6 +1,6 @@
 
-//#include<iostream>
-//using namespace std;
+#include<iostream>
+using namespace std;
 
 int diagonal(int array[4][4]);
 
