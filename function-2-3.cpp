@@ -6,7 +6,7 @@ and to calculate the sum of its elements.  If the length is 0 or negative each f
 return -1 or false as its result.
 */
 
-/*
+
 
 #include<iostream>
 #include<stddef.h>
@@ -15,7 +15,7 @@ using namespace std;
 int sum_if_a_palindrome(int integers[], int length);
 bool is_a_palindrome(int integers[], int length);
 int sum_elements(int integers[], int length);
-
+/*
 int main(){
     int a1[7] = {1,2,3,4,3,2,1};
     int a2[6] = {5,6,7,7,6,5};
