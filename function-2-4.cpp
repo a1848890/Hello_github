@@ -5,7 +5,7 @@ int max_integer(int integers[], int length);
 int min_integer(int integers[], int length);
 
 
-
+/*
 int main(){
     int a1[7] = {7,3,4,5,6,1,2};
     int a2[4] = {111,222,444,333};
@@ -19,7 +19,7 @@ int main(){
     cout << "sum3: "<<sum3<<endl;
     return 0;
 }
-
+*/
 int max_integer(int integers[], int length){
     //if (length < 1) return;
     int max_number = integers[0];
