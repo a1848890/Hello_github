@@ -4,7 +4,7 @@
 #include<string>
 using namespace std;
 void print_as_binary(std::string decimal_number);
-
+/*
 int main(){
     string a = "512";
     string b = "126";
@@ -14,7 +14,7 @@ int main(){
     return 0;
 }
 
-
+*/
 
 
 
