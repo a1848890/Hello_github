@@ -9,9 +9,7 @@ int main(){
     cout << "Please enter an decimal number: "<< endl;
     string decimal;
     cin >> decimal;
-    while (decimal){
     print_as_binary(decimal);
-    }
     
     return 0;
 }
