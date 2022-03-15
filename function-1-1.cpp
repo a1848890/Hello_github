@@ -1,5 +1,5 @@
 #include<iostream>
-
+/*
 void printer(int array[10][10]);
 
 int main(){
@@ -7,6 +7,7 @@ int main(){
     printer(array);
     return 0;
 }
+*/
 
 void printer(int array[10][10]){
     for (int i=0; i<10; i++){
