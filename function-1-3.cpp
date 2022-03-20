@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+void cpyia(int old_array[],int new_array[],int length) ;
+//void printArray(int array[], int length);
+/*
+int main(){
+    int array1[10] = {1,2,3,4,5,6,7,8,9,10};
+    int array2[10];
+    cpyia(array1, array2, 10);
+    printArray(array2, 10);
+    return 0;
+}
+*/
+void cpyia(int old_array[],int new_array[],int length){
+    
+    for (int i=0; i!=length; i++){
+        *(new_array+i) = *(old_array+i);
+    }
+}
+
+
+
+/*
+void printArray(int array[], int length){
+    for (int i=0; i<length; i++){
+        cout << array[i] << " ";
+    }
+    cout << endl;
+}
+*/
