@@ -42,6 +42,9 @@ int maximum_sum(int *nums,int length){
     int temp;
     int max_value = 0;
     //  - - - - - - - - - - 
+    if (length == 0) return;
+    
+    
     int flag = 0;
     for (int j=0; j<length; j++){
         if (*(nums + j) > 0) flag = 1;  
