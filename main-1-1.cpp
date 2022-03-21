@@ -12,7 +12,7 @@ int main(){
     string array1[3][2] = {{"fat","cat"},{"sat","mat"},{"bat", "cat"}};
     string array2[3][2];
     copy_2d_strings(array1,array2,3);
-    printArray(array2, 3);
+    //printArray(array2, 3);
     return 0;
 }
 
