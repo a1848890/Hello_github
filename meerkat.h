@@ -9,11 +9,11 @@ private:
     int _meerAge;
     
 public:
-    meerkat();         // no name or age is required to create a meerkat
-    void setName(string meerName);   // change the meerkat's name
-    string getName();
-    void setAge(int meerAge);        // change the meerkat's age
-    int getAge();
+    inline meerkat();         // no name or age is required to create a meerkat
+    inline void setName(string meerName);   // change the meerkat's name
+    inline string getName();
+    inline void setAge(int meerAge);        // change the meerkat's age
+    inline int getAge();
 };
 
 // * * * * * * * * * * * * * * * // 
