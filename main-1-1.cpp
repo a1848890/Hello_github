@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
 #include<string>
-#include"meerkat.cpp"
+#include"meerkat.h"
 using namespace std;
 
 
