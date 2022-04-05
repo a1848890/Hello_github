@@ -1,5 +1,7 @@
-using namespace std;
+#pragma once
 #include<string>
+
+using namespace std;
 
 class meerkat{
 private:
