@@ -45,9 +45,6 @@ int main(){
             break;
         }
     }
-    cout << "mcat 5" << endl;
-    cout << "mcat 6" << endl;
-    cout << "mcat 7" << endl;
-    cout << "mcat 8" << endl;
+    
     return 0;
 }
