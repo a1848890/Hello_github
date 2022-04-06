@@ -37,9 +37,11 @@ int main(){
     
     meerkat M[5] = {meerkat1, meerkat2, meerkat3, meerkat4, meerkat5};
 
-    for (int i=0; i<5; i++){
-        if (cart.addMeerkat(M[i]) == false) cout << "the cart is full\n";
-    }
-    cart.printMeerkats();
+    int i=0;
+     while (cart.addMeerkat(M[i]) == true){
+         cart.printMeerkats();
+         i++;
+     }
+     cout << "the cart is full" << endl;
     return 0;
 }
