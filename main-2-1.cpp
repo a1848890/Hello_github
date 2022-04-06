@@ -39,7 +39,7 @@ int main(){
 
     for (int i=0; i<5; i++){
         bool is_full = cart.addMeerkat(M[i]);
-        printMeerkats();
+        cart.printMeerkats();
         if (is_full == false) {
             cout << "the cart is full" << endl;
             break;
