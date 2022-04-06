@@ -3,8 +3,8 @@
 #include<iostream>
 #include<string>
 #include<stdlib.h>
-#include"cart.cpp"
-#include"meerkat.cpp"
+//#include"cart.cpp"
+//#include"meerkat.cpp"
 using namespace std;
 
 int main(){
