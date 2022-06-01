@@ -19,10 +19,6 @@ void Sort_by_animalID :: Sort(Animal **animals,int n){
 
 
 void sort_by_animalID :: sort(animal **animals,int n){
-    for (int i=0;i<100; i++){
-        int id = animals[i]->get_animalID();
-    }
-
     for (int j=n; j>0; j--){
         for (int i=0; i<n-1; i++){
             if (animals[i]->get_animalID() > animals[i+1] -> get_animalID()){
