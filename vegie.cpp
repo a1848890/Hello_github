@@ -11,6 +11,7 @@ int vegie :: nextID = 100;
 
 vegie :: vegie(string n, int v): animal(n, v){
     animalID = nextID ++;
+    favourite_food = "grass";
 }
 
 void vegie :: set_favourite_food(string the_favourite_food){
