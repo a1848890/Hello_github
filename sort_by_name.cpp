@@ -5,7 +5,6 @@
 #include"vegie.h"
 #include"zoo.h"
 #include"sort_by_name.h"
-#include<algorithm>
 
 using namespace std;
 
