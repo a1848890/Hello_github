@@ -77,14 +77,14 @@ int main(){
     zoo my_zoo("The_name_of_zoo", 50, 50);
     animal** animals_array = my_zoo.get_animals();
     for (int i=0; i<50; i++){
-        vegie *cow = new vegie("Daisy", 100);
+        animal *cow = new vegie("Daisy", 100);
         animals_array[i] = cow;
        // cout << (*animals_array[i]).get_animalID() << endl;
     }
     cout << "++++++++++++++++++++++++++++++++++\n";
 
     for (int i=0; i<50; i++){
-        hunter *lion = new hunter("Clarence", 50);
+        animal *lion = new hunter("Clarence", 50);
         animals_array[50+i] = lion;
     }
 
