@@ -26,8 +26,3 @@ int zoo :: get_number_of_animals(){
 animal** zoo::get_animals(){
     return animals;
 }
-
-zoo::~zoo(){
-    delete [] animals;
-}
-
