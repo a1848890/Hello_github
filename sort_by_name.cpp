@@ -9,15 +9,15 @@
 
 using namespace std;
 
-
-void sort_by_name :: sort(animal **animals, int n){
-    string name_array[n];
-    for (int i=0; i<n; i++){
-        name_array[i] = (*animals[i]).get_name();
-    }
-    std::sort(name_array, name_array + n);
-
-    for (int i=0; i<n; i++){
-        (*animals[i]).set_name(name_array[i]);
+void sort(animal **animals,int n){
+    for (int j=n; j>0; j--){
+        for (int i=0; i<n-1; i++){
+            if (animals[i]->get_name() > animals[i+1] -> get_name()){
+                animal* temp = animals[i];
+                animals[i] = animals[i+1];
+                animals[i+1] = temp;
+                 //std :: swap(animals[i],  animals[i+1]);
+            }
+        }
     }
 }
